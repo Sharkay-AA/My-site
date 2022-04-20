@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.navbar {
+  border-bottom: 1px solid black;
+}
+
+.imgProfileAcc {
+  width: 150px;
+}
+
+#accueil {
+  min-height: 750px;
+}
+
+.imgServices {
+  width: 120px;
+  height: 120px;
+}
+
+.titreContact {
+  padding: 40px 0 50px 0;
+  margin-top: 100px;
+}
+
+.title-height {
+  min-height: 80px;
+}
+
+
+.test{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 1401px) {
+    .description-height{
+        height: 60px;
+    }
+    .text-height{
+        min-height: 170px;
+    }
+ }
+@media (max-width: 1201px) {
+    .text-height{
+        min-height: 220px;
+    }
+ }
+@media (max-width: 1001px) {
+    .text-height{
+        min-height: 170px;
+    }
+ }
+@media (max-width: 771px) {
+    .text-height{
+        min-height: inherit;
+    }
+    .presentation-center{
+        text-align: center;
+    }
+ }
+
+
+
+
