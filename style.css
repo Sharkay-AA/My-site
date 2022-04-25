@@ -31,12 +31,6 @@ body {
 }
 
 
-.test{
-    display: flex;
-    justify-content: center;
-}
-
-
 @media (max-width: 1401px) {
     .description-height{
         height: 60px;
